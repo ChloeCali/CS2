@@ -17,7 +17,6 @@ def subCirc(position,length,num,direction,text):
     position = position - 1                             #Position variable takes the position and properly formats the number for arrays by subtracting 1
     trueLength = position + length                      #trueLength takes the length and formats the number in termns of the wrd array
     letters = text[position:trueLength]                 #letters will hold all letters selected to circulate in the form of a string
-  
     cnt1 = 0                                            #cnt1 is the counter for the loop "for letter in text"
     for letter in text:                                 #This loop appends all letters from text into the wrd array 
         wrd.append(text[cnt1])
